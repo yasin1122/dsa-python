@@ -68,7 +68,7 @@ queue.append(1)
 queue.append(2)
 queue.popleft()
 queue.appendleft(11)
-print(queue)
+print(queue)å
 
 # HashSet (Sets)
 mySet = set([11, 22]) 
@@ -80,3 +80,4 @@ mySet = {i for i in range(5)} # order is NOT guaranteed
 print(mySet)
 
 # HashMaps (Dictionaries) 
+myMap = {}
