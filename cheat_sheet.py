@@ -53,3 +53,30 @@ arr = [i*2 for i in range(5)] # List comprehension
 print(arr)
 arr = [[i] * 4 for i in range(4)] # 2-D list comprehension
 print (arr) # arr = [[0] * 4] * 4 won't work
+
+# Strings
+str = 'Hello' # Strings are immutable.
+print(int("123"), ord("a")) # ASCII value
+strings = ['Hello', 'Python', 'World']
+print(" ".join(strings)) # "separator".join(strArr)
+
+# Queues (double ended)
+from collections import deque
+
+queue = deque()
+queue.append(1)
+queue.append(2)
+queue.popleft()
+queue.appendleft(11)
+print(queue)
+
+# HashSet (Sets)
+mySet = set([11, 22]) 
+mySet.add(1)
+mySet.add(2)
+mySet.remove(2)
+print(1 in mySet) # check if 1 is in the set
+mySet = {i for i in range(5)} # order is NOT guaranteed
+print(mySet)
+
+# HashMaps (Dictionaries) 
