@@ -68,7 +68,7 @@ queue.append(1)
 queue.append(2)
 queue.popleft()
 queue.appendleft(11)
-print(queue)å
+print(queue)
 
 # HashSet (Sets)
 mySet = set([11, 22]) 
