@@ -86,3 +86,12 @@ myMap['id2'] = 2222
 print(myMap)
 for key, val in myMap.items():
   print(key, val)
+
+# Heaps
+import heapq
+
+minHeap = [] # implemented as a List
+heapq.heappush(minHeap, 2)
+heapq.heappush(minHeap, 1)
+heapq.heappush(minHeap, 3)
+print(minHeap) 
