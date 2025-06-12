@@ -81,3 +81,8 @@ print(mySet)
 
 # HashMaps (Dictionaries) 
 myMap = {}
+myMap['id1'] = 1111
+myMap['id2'] = 2222
+print(myMap)
+for key, val in myMap.items():
+  print(key, val)
