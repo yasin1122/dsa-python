@@ -95,3 +95,23 @@ heapq.heappush(minHeap, 2)
 heapq.heappush(minHeap, 1)
 heapq.heappush(minHeap, 3)
 print(minHeap) 
+
+# Functions
+def myFunc(a=5, b=10):
+  return a + b
+print(myFunc())
+
+# Classes
+class MyClass:
+  def __init__(self, nums):
+    self.nums = nums
+    self.size = len(nums)
+
+  def getLength(self):
+    return self.size
+  
+  def printNums(self):
+    print(self.nums)
+
+myObj = MyClass([11, 22, 33])
+myObj.printNums()
