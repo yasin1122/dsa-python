@@ -96,6 +96,10 @@ heapq.heappush(minHeap, 1)
 heapq.heappush(minHeap, 3)
 print(minHeap) 
 
+arr = [ i for i in range(5, 0, -1) ]
+heapq.heapify(arr)
+print('heapified arr = ', arr)
+
 # Functions
 def myFunc(a=5, b=10):
   return a + b
