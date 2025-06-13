@@ -1,1 +1,1 @@
-console.log('hello'[0])
+console.log(new Set([1, 2, 2, 3]))

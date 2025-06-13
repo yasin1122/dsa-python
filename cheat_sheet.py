@@ -71,13 +71,14 @@ queue.appendleft(11)
 print(queue)
 
 # HashSet (Sets)
-mySet = set([11, 22]) 
+mySet = set([11, 22, 22]) # no duplicates
+print('mySet = ', mySet) 
 mySet.add(1)
 mySet.add(2)
 mySet.remove(2)
 print(1 in mySet) # check if 1 is in the set
 mySet = {i for i in range(5)} # order is NOT guaranteed
-print(mySet)
+print('mySet = ', mySet)
 
 # HashMaps (Dictionaries) 
 myMap = {}
