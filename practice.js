@@ -1,1 +1,3 @@
-console.log(new Set([1, 2, 2, 3]))
+let nums = [9, 7, 2, 5]
+nums.sort()
+console.log(nums)
